@@ -1,7 +1,7 @@
 'use client'
 import { useSearchParams } from 'next/navigation'
 import { videos } from '@/data/videos'
-//
+
 export default function CheckoutPage() {
   const searchParams = useSearchParams()
   const videoId = searchParams.get('videoId')
