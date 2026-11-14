@@ -15,7 +15,7 @@ export default function Navbar() {
     </nav>
   )
 }
-
+..
 const navStyle = {
   background: '#000',
   borderBottom: '1px solid #333',
